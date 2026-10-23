@@ -1,1 +1,35 @@
-# uyangaa
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="memory_game.css" />
+  </head>
+  <body>
+    <h1>🧠 Memory Game</h1>
+    <div class="count">
+      <p>🎯 Нүүдэл: <span id="moves">0</span></p>
+      <p>✅ Олсон хос: <span id="pairs">0</span> / 6</p>
+    </div>
+    <div class="board">
+      <button class="card" id="card0" onclick="flip(0)">❓</button>
+      <button class="card" id="card1" onclick="flip(1)">❓</button>
+      <button class="card" id="card2" onclick="flip(2)">❓</button>
+      <button class="card" id="card3" onclick="flip(3)">❓</button>
+      <button class="card" id="card4" onclick="flip(4)">❓</button>
+      <button class="card" id="card5" onclick="flip(5)">❓</button>
+      <button class="card" id="card6" onclick="flip(6)">❓</button>
+      <button class="card" id="card7" onclick="flip(7)">❓</button>
+      <button class="card" id="card8" onclick="flip(8)">❓</button>
+      <button class="card" id="card9" onclick="flip(9)">❓</button>
+      <button class="card" id="card10" onclick="flip(10)">❓</button>
+      <button class="card" id="card11" onclick="flip(11)">❓</button>
+    </div>
+    <div class="click">
+      <button class="action" data-eh="_eh0">👀 3 секунд харах</button>
+    </div>
+    <script src="memory_game.js"></script>
+  </body>
+</html>
+
